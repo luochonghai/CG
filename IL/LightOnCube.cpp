@@ -37,12 +37,6 @@ float lastY = 300;
 Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
 glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 
-
-/**
-顶点数组对象：Vertex Array Object，VAO
-顶点缓冲对象：Vertex Buffer Object，VBO
-索引缓冲对象：Element Buffer Object，EBO或Index Buffer Object，IBO
-*/
 int main() 
 {
 	glfwInit();
@@ -88,10 +82,9 @@ int main()
 	glActiveTexture(GL_TEXTURE2);
 	glBindTexture(GL_TEXTURE_2D, matrixMap);
 
-	//箱子
+	//载入物体及光源
 	Shader lightingShader("C:\\Users\\tjqqd\\Documents\\Visual Studio 2017\\Projects\\CG_PJ1\\CG_PJ1\\vx.glsl",
 		"C:\\Users\\tjqqd\\Documents\\Visual Studio 2017\\Projects\\CG_PJ1\\CG_PJ1\\fx.glsl");
-	//光源
 	Shader lampShader("C:\\Users\\tjqqd\\Documents\\Visual Studio 2017\\Projects\\CG_PJ1\\CG_PJ1\\vy.glsl",
 		"C:\\Users\\tjqqd\\Documents\\Visual Studio 2017\\Projects\\CG_PJ1\\CG_PJ1\\fy.glsl");
 
