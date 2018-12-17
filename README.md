@@ -10,3 +10,7 @@
 
 ## 4.flash animation(Traffic Light)
 <img src="https://github.com/luochonghai/CG/blob/master/FLA/TrafficLight.gif"  alt="flash_animation(Traffic_Light)"/>
+
+## 5.paper translation
+### I choose the paper: Patch-Based Optimization for Image-Based Texture Mapping from SIGGRAPH 2017.
+### Here's the project website:http://cseweb.ucsd.edu/~viscomp/projects/SIG17TextureMapping/
